@@ -74,10 +74,15 @@ footer button{
     background-color: #B68C5A;
 }
 
+footer > div{
+    width:25%;
+}
 @media screen and (max-width: 688px){
-    body{
-        margin: 0 !important;
+
+    header,main{
+        margin: 0px;
     }
+
     .banner{
       margin: 20px 0;
       padding: 0 30px;
@@ -96,5 +101,13 @@ footer button{
     .banner button{
         width: 100% ;
         padding: 5px !important;
+    }
+    footer{
+        padding: 50px 10px;
+
+    }
+    footer > div{
+        width:100%;
+        margin-bottom: 20px;
     }
 }
