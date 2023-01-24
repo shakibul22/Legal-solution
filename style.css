@@ -66,7 +66,12 @@ nav button{
 
 footer{
     background-color:#111111;
-    padding: 0 300px;
+    padding: 50px 300px;
+    
+}
+
+footer button{
+    background-color: #B68C5A;
 }
 
 @media screen and (max-width: 688px){
