@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
 
 body{
-    margin: 0 300px;
     font-family: 'EB Garamond', serif;
+}
+
+header,main{
+    margin: 0 300px;
 }
 
 nav button{
@@ -16,4 +19,77 @@ nav button{
 
 .banner button{
     background-color: #B68C5A;
+}
+
+.banner h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.practise-area img{
+    width: 20%;
+    height: 25%;
+    margin-bottom: 10px;
+}
+
+.card-body img{
+    width: 40px;
+}
+
+.gradient-law{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.032), transparent);
+}
+
+.carousel-image{
+    width:100%;
+    height: 500px;
+    padding: 0px 0 !important;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.604);
+    width: 100%;
+    height: 100%;
+    left:0 !important;
+    right:0 !important;
+}
+
+.carousel-caption img{
+    width: 100px !important;
+    margin-top: 70px !important;
+}
+
+.carousel-caption p{
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color:#111111;
+    padding: 0 300px;
+}
+
+@media screen and (max-width: 688px){
+    body{
+        margin: 0 !important;
+    }
+    .banner{
+      margin: 20px 0;
+      padding: 0 30px;
+      background-size: stretch;
+    }
+    .banner h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .banner input{
+        width: 100% !important;
+        padding: 5px !important;
+        padding-left: 10px !important;
+        margin-bottom: 5px;
+    }
+    .banner button{
+        width: 100% ;
+        padding: 5px !important;
+    }
 }
